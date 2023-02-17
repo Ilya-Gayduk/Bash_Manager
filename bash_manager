@@ -10,9 +10,9 @@ OPTION=$(dialog --title  "Bash_Manager" --menu  "Выберите необход
 exitstatus=$?
 if [ $exitstatus = 0 ];  then
 	clear
-	echo "Your chosen option:" $OPTION
+	echo "Выбран вариант:" $OPTION
 else
 	clear
-	echo "You chose Cancel."
+	echo "Выход из Bash_Manager."
 fi
 
